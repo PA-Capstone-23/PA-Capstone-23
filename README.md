@@ -1,8 +1,9 @@
 # PA-Capstone-23
 
 Tema Project Akhir : Data Kunjungan Lapas 
-
-1) Package model
+# Deskripsi Tema
+Tema "Daftar Kunjungan Lembaga Pemasyarakatan (Lapas) Java" adalah sebuah aplikasi atau sistem yang dirancang untuk mencatat dan melacak data kunjungan di sebuah lembaga pemasyarakatan. Aplikasi ini memiliki beberapa komponen penting yang memungkinkan pengguna, pengunjung, dan narapidana, untuk memanfaatkan berbagai fitur yang ada. B
+## 1) Package model
 Package ini terdiri dari 4 file:
 a. Kunjungan
  - mendeklarasi package di mana kelas Kunjungan berada.
@@ -18,12 +19,6 @@ a. Kunjungan
 - atribut-atribut yang akan digunakan dalam kelas Kunjungan untuk merepresentasikan data kunjungan. Mereka memiliki tipe data yang berbeda seperti int dan String dan 
   memiliki nama yang sesuai dengan data yang akan mereka simpan, seperti idKunjungan untuk ID kunjungan, tanggal untuk tanggal kunjungan, dan sebagainya.
 ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/ec4d50e4-abab-4a04-bb6a-a907ce0fcbe1)
-
-- Berikutnya, terdapat metode-metode setter dan getter untuk setiap atribut.
-![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/9421b605-69eb-44ee-9c36-967d100b8b6f)
-
-![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/44da49a6-24f1-4613-b34b-6b71437a3289)
-
 b. Narapidana
   - mendeklarasi package di mana kelas Narapidana berada.
   ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/f41ecdcb-cd36-4686-8777-9cdbce2ad21e)
@@ -40,13 +35,6 @@ b. Narapidana
     sebagainya.
   ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/32bc6c4a-e12c-413c-b953-1513a35c218a)
 
-  -  Berikutnya, terdapat metode-metode setter dan getter untuk setiap atribut.
-  ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/967dcfaa-376d-4994-8ccf-60afca38922c)
-
-  ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/c0d6a08c-4b7c-462a-8a6d-22dc387cfbf0)
-
-  ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/37a727b0-9ed5-4850-9dd8-03234ed52ed5)
-
 c. Pengunjung
  - mendeklarasi package di mana kelas Pengunjung berada.
  ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/968323ea-6a3f-4797-9e20-e3b48897bdb6)
@@ -61,6 +49,21 @@ c. Pengunjung
  - Atribut idPengunjung memiliki kata kunci static yang berarti atribut ini terkait dengan kelas secara keseluruhan. Ini digunakan untuk mengidentifikasi pengunjung secara 
    unik, dan nilainya dapat diakses dan diubah tanpa membuat objek kelas Pengunjung.
  ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/e45f7bd9-62d4-441e-946d-4d1000c985ad)
+# 2) Package Interface
+Pada package ini terdapat 4 file gui yaitu DaftarKunjungan, Login, MenuAdmin, dan Registrasi.
+1. Daftar Kunjungan
+   ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/5ba261f9-c079-40c2-a10a-aa18ec8d6fa1)
+
+3. Login
+4. MenuAdmin
+5. Registrasi
+## Hierarki
+![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/ba48b58b-ba20-4fd5-91b8-306e3b950b9b)
+## Flowchart
+![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/705db1fc-3541-488b-a295-56be6bc780e1)
+![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/0be768c3-7216-4b16-9212-9fc0a7a5bd28)
+
+
 
 
 
