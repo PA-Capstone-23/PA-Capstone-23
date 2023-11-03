@@ -54,9 +54,20 @@ Pada package ini terdapat 4 file gui yaitu DaftarKunjungan, Login, MenuAdmin, da
 1. Daftar Kunjungan
    ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/5ba261f9-c079-40c2-a10a-aa18ec8d6fa1)
 
-3. Login
-4. MenuAdmin
-5. Registrasi
+2. Login
+   ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/d8052043-411b-4678-815e-481727876c4f)
+
+3. MenuAdmin
+   ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/f15ef3b0-1d79-4b69-b26b-32f074625724)
+
+4. Registrasi
+   ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/117e432c-0908-41ff-b19d-c5eb26f2e189)
+
+# 2) Package Databases
+Pada package ini terdapat file java bernama database yang berisi construcutor yang digunakan untuk menghubungkan ke database.
+
+# 3) Package DataAccessObject
+Package ini berisi constructor yang digunakan pada setiap package model, file pada package ini berisi KunjunganDAO, NarapidanaDAO, PengunjungDAO, dan StafDAO.
 ## Hierarki
 ![image](https://github.com/PA-Capstone-23/PA-Capstone-23/assets/122289679/ba48b58b-ba20-4fd5-91b8-306e3b950b9b)
 ## Flowchart
